@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: #050810;
+    min-height: 100vh;
+    font-family: 'Outfit', 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-slate-900/60 backdrop-blur-lg border border-white/5 shadow-2xl;
+  }
+  .glass-card {
+    @apply bg-slate-800/40 backdrop-blur-md border border-white/5 hover:border-violet-500/20 transition-all duration-300 shadow-md;
+  }
+  .glass-input {
+    @apply w-full bg-slate-950/60 border border-white/10 rounded-xl px-4 py-2.5 text-white placeholder-slate-500
+           focus:outline-none focus:border-violet-500/70 focus:ring-1 focus:ring-violet-500/30 transition-all duration-200 text-sm;
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-violet-500 to-indigo-600 hover:from-violet-600 hover:to-indigo-700
+           text-white font-semibold py-2.5 px-5 rounded-xl shadow-lg shadow-violet-500/10
+           hover:shadow-violet-500/30 transition-all duration-300 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-slate-800/80 hover:bg-slate-700 text-slate-200 font-medium py-2 px-4 rounded-xl
+           border border-white/5 transition-all duration-200 active:scale-95;
+  }
+  .btn-ghost {
+    @apply text-slate-400 hover:text-white hover:bg-white/5 font-medium py-2 px-3 rounded-lg transition-all duration-200;
+  }
+  .custom-scrollbar::-webkit-scrollbar { width: 5px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { @apply bg-slate-700 rounded-full; }
+}
+
+/* Entity type badge colors */
+.badge-PERSON       { @apply bg-sky-500/10 text-sky-300 border-sky-500/20; }
+.badge-ORGANIZATION { @apply bg-violet-500/10 text-violet-300 border-violet-500/20; }
+.badge-LOCATION     { @apply bg-emerald-500/10 text-emerald-300 border-emerald-500/20; }
+.badge-EVENT        { @apply bg-amber-500/10 text-amber-300 border-amber-500/20; }
+.badge-CONCEPT      { @apply bg-rose-500/10 text-rose-300 border-rose-500/20; }
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+.animate-pulse-soft { animation: pulse-soft 2s ease-in-out infinite; }
+
+@keyframes shimmer {
+  from { background-position: -200% center; }
+  to   { background-position:  200% center; }
+}
+.shimmer-text {
+  background: linear-gradient(90deg, #a78bfa, #818cf8, #c4b5fd, #818cf8, #a78bfa);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
