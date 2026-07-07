@@ -1,6 +1,6 @@
 # Knowledge Grapher
 
-![Project Banner]("./assets/image.png") <!-- Add your project banner screenshot here -->
+![Project Banner](./assets/image.png) <!-- Add your project banner screenshot here -->
 
 **Knowledge Grapher** is an AI-powered NLP Text-to-Entity Knowledge Graph Visualizer. It takes raw, unstructured text inputs, automatically extracts key entities and their relationships using Natural Language Processing, and transforms them into interactive, visual knowledge graphs.
 
@@ -10,7 +10,7 @@ This application is designed to help users quickly digest complex information, u
 
 ## 🎥 Demo Video
 
-<video src="./assets/KnowledgeGrapher%20%E2%80%94%20NLP%20Entity%20%26%20Relationship%20Visualizer%20-%20Brave%202026-07-07%2016-19-56.mp4" controls="controls" style="max-width: 100%;">
+<video src="https://github.com/Steve-B17/KnowledgeGrapher/raw/main/assets/KnowledgeGrapher%20%E2%80%94%20NLP%20Entity%20%26%20Relationship%20Visualizer%20-%20Brave%202026-07-07%2016-19-56.mp4" controls="controls" style="max-width: 100%;">
   Your browser does not support the video tag.
 </video>
 
