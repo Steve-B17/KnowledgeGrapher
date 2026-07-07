@@ -10,7 +10,9 @@ This application is designed to help users quickly digest complex information, u
 
 ## 🎥 Demo Video
 
-https://github.com/Steve-B17/KnowledgeGrapher/raw/main/assets/KnowledgeGrapher%20%E2%80%94%20NLP%20Entity%20%26%20Relationship%20Visualizer%20-%20Brave%202026-07-07%2016-19-56.mp4
+<video src="https://raw.githubusercontent.com/Steve-B17/KnowledgeGrapher/main/assets/demo.mp4" controls="controls" muted="muted" playsinline="playsinline" style="max-width: 100%;">
+  Your browser does not support the video tag.
+</video>
 
 *(Note: If the video above does not play directly in your browser, you can click the link to download or view it.)*
 
