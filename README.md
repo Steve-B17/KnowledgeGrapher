@@ -10,11 +10,7 @@ This application is designed to help users quickly digest complex information, u
 
 ## 🎥 Demo Video
 
-<video src="https://raw.githubusercontent.com/Steve-B17/KnowledgeGrapher/main/assets/demo.mp4" controls="controls" muted="muted" playsinline="playsinline" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
-
-*(Note: If the video above does not play directly in your browser, you can click the link to download or view it.)*
+To see the Knowledge Grapher in action, please view the [demo.mp4](./assets/demo.mp4) video located in the `assets` folder of this repository. You can download or view it directly to see the full capabilities of the project!
 
 ---
 
