@@ -6,8 +6,11 @@
 
 ---
 
-[![Knowledge Grapher Demo]()
+## 🎥 Demo Video
 
+<video src="./assets/KnowledgeGrapher%20%E2%80%94%20NLP%20Entity%20%26%20Relationship%20Visualizer%20-%20Brave%202026-07-07%2016-19-56.mp4" controls="controls" style="max-width: 100%;">
+  Your browser does not support the video tag.
+</video>
 
 ## 🚀 Getting Started Locally
 
